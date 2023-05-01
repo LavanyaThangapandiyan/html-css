@@ -1,0 +1,127 @@
+style.css
+
+*{ margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+}
+
+h1 slide-left{
+    width: 100%;
+    overflow: hidden;
+}
+.header{
+min-height: 100vh;
+width: 100%;
+background: #f37575;
+color: #db2626dc;
+position: relative;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+.logo{
+    text-decoration: none;
+    color: #d8c0c0;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-left: 10%;
+}
+.nav-links{
+    text-align: right;
+    background: #eedddd;
+    padding: 10px 30px;
+    border-bottom-left-radius: 18px;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+.nav-links ul li a{
+    color: #0c0c0c;
+    text-decoration: none;
+    font-size: 18px;
+}
+.nav-links ul li a:hover{
+    color: #e45656;
+}
+.left-sidebar{
+    width: 20%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #f55f5f;
+}
+.row{
+    padding: 0 10%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    position: relative;
+    margin-top: -1%;
+}
+.left-col{
+    flex-basis: 40%;
+}
+.right-col{
+    flex-basis: 55%;
+}
+.left-col img{
+    
+    width: 110%;
+    cursor: pointer;
+    filter: grayscale(0);
+    transition: filter 1s;
+}
+.left-col img:hover{
+    filter: grayscale(1);
+}
+.right-col h1{
+    font-style: 55px;
+    font-weight: 600;
+}
+.right-col p{
+    color: #636161;
+    margin: 20px 0 70px;
+}
+.social-media{
+    display: flex;
+}
+.icon{
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 0 0 20px 10px rgb(0, 0,0,0,0.05);
+    margin: 0 30px;
+    border-radius: 50%;
+    position: relative;
+}
+.social-media a .fab{
+    font-size: 30px;
+    line-height: 80px;
+    position: 
+}
+.social-media a::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: -90px;
+    left: 0;
+    background: -moz-linear-gradient(-45deg, #ed1c94,#ffec17);
+    position: absolute;
+}
+.icon a:hover{
+    opacity: 1;
+}
+.icon:hover{
+    transform: translateY(-5px);
+}
+
